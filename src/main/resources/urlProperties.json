@@ -1,0 +1,17 @@
+[
+  {
+    "action": "retrieve-by-id",
+    "method" : "GET",
+    "url": "/send/v1/partners/%s/crossborder/%s"
+  },
+  {
+    "action": "upload-document",
+    "method" : "POST",
+    "url": "/send/partners/%s/crossborder/rfi/documents"
+  },
+  {
+    "action": "validate-iban",
+    "method" : "POST",
+    "url": "/iban/validate"
+  }
+]
